@@ -13,7 +13,7 @@ public class App {
   }
 
   public static void main(String... args) throws Exception {
-    App app = new App();
+    App app = new App()
     System.out.println("Success: " + app.compare(2, 1));
   }
 
